@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+<div data-role="header" data-theme="b">
+<h1>Update NGV</h1></div>
+<div data-role="main" class="ui-content">
+<form method="post" action="update_ngv_process.php">
+<div class="ui-field-contain"><label for="date1">Date :</label><input type="date" name="date1" id="date1" /><label for="odo">Odo Meter:</label><input type="text" name="odo" id="odo" />    <label for="total">Total:</label><input type="text" name="total" id="total" />  		<label for="mileage">Milage:</label><input type="text" name="mileage" id="mileage" />  <label for="comments">Comments :</label><input type="text" name="comments" id="comments" /> 
+</div>
+<center>
+<input type="submit" data-inline="true" value="Submit" />
+</center><a href="viewlist_ngv.php" class="ui-btn">View List</a>
+</form></div></div>
+</div></form></div></div>
+</body>
+</html>
